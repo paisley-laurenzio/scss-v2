@@ -1,0 +1,22 @@
+html {
+    font-family: $lato;
+}
+
+.border{
+    border: 1px solid $coral;
+    p {
+        color: $green;
+    }
+}
+
+.primary-btn{
+    @include button ($coral);
+    }
+
+.secondary-btn{
+    @include button ($green);
+    }
+
+ul {
+    @extend .border;
+}

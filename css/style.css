@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+html {
+  font-family: "Lato", sans-serif;
+}
+
+.border, ul {
+  border: 1px solid #F05546;
+}
+
+.border p, ul p {
+  color: #BCC83E;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #F05546;
+}
+
+.primary-btn:hover {
+  background: #ec2a17;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #BCC83E;
+}
+
+.secondary-btn:hover {
+  background: #9aa42f;
+}
+
+/*# sourceMappingURL=style.css.map */
